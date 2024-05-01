@@ -1,0 +1,61 @@
+/* index.html */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/static/css/images/img13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    text-align: center;
+    height: 30px;
+    line-height: 30px; 
+    
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin-top: 10px; 
+}
+
+.navbar nav ul li:not(.navbar) {
+    margin-top: 0; 
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-size: 100px;
+    color: white;
+    text-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+

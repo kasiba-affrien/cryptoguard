@@ -1,0 +1,62 @@
+/* mine.html */
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #1c3367, #000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mine-puzzle {
+    width: 300px;
+    margin: 200px 493px 0px 515px ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.6);
+}
+
+.mine-puzzle p {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.mine-puzzle strong {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.mine-puzzle label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mine-puzzle input[type="text"] {
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.mine-puzzle button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0c00b6;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mine-puzzle button:hover {
+    background-color: #1302ff;
+}

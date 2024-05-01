@@ -1,0 +1,47 @@
+/* profile.html */
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #1c3367, #000000);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.username {
+    text-align: center;
+    padding: 10px;
+    color: white; 
+    font-size: 80px;
+    padding-top: 150px;
+}
+
+.dashboard {
+    text-align: center;
+    padding: 10px;
+    color: #ffffff; 
+}
+
+.dashboard nav ul li{
+    display: inline;
+}
+
+.dashboard a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    display: inline;
+}
+
+.dashboard li{
+    list-style: none;
+    padding-left: 21px;
+}
+
+.dashboard a:hover {
+    background-color: #1302ff; 
+}
